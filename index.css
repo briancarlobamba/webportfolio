@@ -66,6 +66,36 @@ img {
     max-width: 100%;
 }
 
+#resume-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#resume-button:hover {
+    background-color: grey;
+    transform: scale(1.1);
+}
+
+#submit {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#submit:hover {
+    background-color: grey;
+    transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
     #self-portrait {
         width: 100%; 
@@ -81,7 +111,7 @@ img {
 
 .fa-envelope:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover,
 .fa-github:hover, .fa-linkedin:hover {
-    color: silver;
+    color: grey;
     transform: scale(1.4);
     transition: transform 0.3s ease;
 }
@@ -100,6 +130,11 @@ img {
 
 .card:hover {
   transform: scale(1.09);
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 15px;
 }
 
 body {
