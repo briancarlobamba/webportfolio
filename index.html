@@ -18,207 +18,247 @@
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand ms-5" href="#landing">BRIAN BAMBA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link active px-3" aria-current="page" href="#landing">About</a>
-                <a class="nav-link px-3" href="#projects">Projects</a>
-                <a class="nav-link px-3" href="#tools">Tools</a>
-                <a class="nav-link px-3" href="#contact">Contact</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#landing">BRIAN BAMBA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active px-3" aria-current="page" href="#landing">About</a>
+                    <a class="nav-link px-3" href="#projects">Projects</a>
+                    <a class="nav-link px-3" href="#tools">Tools</a>
+                    <a class="nav-link px-3" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing -->
+    <div id="landing" class="container text-dark px-0">
+        <div class="row justify-content-center align-items-center p-3 p-md-5 m-3 m-md-5">
+            <div class="col-12 col-md-6 d-flex justify-content-center position-relative mb-4 mb-md-0">
+                <div class="position-relative d-inline-block">
+                    <img src="./images/selfportrait.jpg" id="self-portrait" class="img-fluid rounded-circle border border-dark shadow-lg position-relative" alt="Self Portrait">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <h1><strong>BRIAN BAMBA</strong></h1>
+                <h5 class="my-xl-3 text-muted">Full-Stack Web Developer</h5>
+                <p>Welcome to my Capstone 1 Project; a static personal portfolio.</p>
+                <p>
+                    <a href="./images/resume.pdf" class="btn btn-dark btn-sm" target="_blank" id="resume-button">
+                        <i class="fas fa-download"></i> View my Résumé
+                    </a>
+                </p>
             </div>
         </div>
     </div>
-</nav>
 
-<!-- Landing -->
-<div id="landing" class="container text-dark px-0">
-    <div class="row justify-content-center align-items-center p-3 p-md-5 m-3 m-md-5">
-        <div class="col-12 col-md-6 d-flex justify-content-center position-relative mb-4 mb-md-0">
-            <div class="position-relative d-inline-block">
-                <img src="./images/selfportrait.jpg" id="self-portrait" 
-                     class="img-fluid rounded-circle border border-dark shadow-lg position-relative" 
-                     alt="Self Portrait">
+    <!-- Projects -->
+    <div class="p-5 text-center" id="projects">
+        <h2 class="text-light">Projects</h2>
+        <div class="container p-md-5">
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://briancarlobamba.github.io/capstone-1/" target="_blank">
+                            <img src="./images/html.jpeg" class="card-img-top" alt="Capstone 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Capstone 1: Static Personal Portfolio</h5>
+                            <h6 class="card-subtitle text-muted mb-3">HTML, CSS, Bootstrap</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://www.postman.com/telecoms-architect-35870230/e-commerce-api/collection/btz5yvo/capstone-2-ecommerce-api" target="_blank">
+                            <img src="./images/capstone2.png" class="card-img-top" alt="Capstone 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Capstone 2: E-Commerce API</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Node.js, Express.js, MongoDB</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://capstone-3-eight-fawn.vercel.app/" target="_blank">
+                            <img src="./images/capstone3.png" class="card-img-top" alt="Capstone 3">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Capstone 3: Full-Stack E-Commerce Web Application</h5>
+                            <h6 class="card-subtitle text-muted mb-3">MongoDB, Express.js, React.js, Node.js</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://scratch.mit.edu/projects/1139681810/" target="_blank">
+                            <img src="./images/scratch.webp" class="card-img-top" alt="Scratch">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Problem Set 0: Scratch Game</h5>
+                            <h6 class="card-subtitle text-muted mb-3">Scratch</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://briancarlobamba.github.io/calculator-app/" target="_blank">
+                            <img src="./images/calculator.png" class="card-img-top" alt="Calculator">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Calculator App</h5>
+                            <h6 class="card-subtitle text-muted mb-3">HTML, CSS, JavaScript</h6>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="col-12 col-md-6 text-center text-md-start">
-            <h1><strong>BRIAN BAMBA</strong></h1>
-            <h5 class="my-xl-3 text-muted">Full-Stack Web Developer</h5>
-            <p>Welcome to my Capstone 1 Project; a static personal portfolio.</p>
-            <p><a href="./images/resume.pdf" class="btn btn-dark btn-sm" target="_blank" id="resume-button">
-                <i class="fas fa-download"></i> View my Résumé
-            </a></p>
+    </div>
+
+    <!-- Tools -->
+    <div id="tools" class="container p-5 text-dark">
+        <h1 class="text-center">Tools</h1>
+        <div id="icons" class="row text-center">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/git.png" class="img-fluid" alt="Git">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/github.png" class="img-fluid" alt="GitHub">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/figma.png" class="img-fluid" alt="Figma">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/html.png" class="img-fluid" alt="HTML">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/css.png" class="img-fluid" alt="CSS">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/js.png" class="img-fluid" alt="JavaScript">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/mongodb.png" class="img-fluid" alt="MongoDB">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/node.png" class="img-fluid" alt="Node.js">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/express.png" class="img-fluid" alt="Express">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/react.png" class="img-fluid" alt="React">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/postman.png" class="img-fluid" alt="Postman">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+                <img src="./images/vscode.png" class="img-fluid" alt="VSCode">
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Projects -->
-<div class="p-5 text-center" id="projects">
-    <h2 class="text-light">Projects</h2>
-    <div class="container p-md-5">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100">
-                    <a href="https://www.postman.com/telecoms-architect-35870230/e-commerce-api/collection/btz5yvo/capstone-2-ecommerce-api" target="_blank"><img src="./images/capstone2.png" class="card-img-top" alt="Capstone 2"></a>
-                    <div class="card-body">
-                        <h5 class="card-title mt-3">E-Commerce API</h5>
-                        <h6 class="card-subtitle text-muted mb-3">Capstone 2</h6>
-                        <!-- <p class="card-text mb-3 pt-3">Built a RESTful API for an e-commerce platform to manage user authentication, product CRUD operations, and order processing. Developed with Node.js, Express.js, and MongoDB, it features JWT authentication, Bcrypt password encryption, and database management with Mongoose ODM. Tested with Postman and deployed on AWS EC2.</p> -->
+    <!-- Contact Section -->
+    <div class="container-fluid text-light py-5 px-3 px-lg-5">
+        <div class="row d-flex justify-content-center align-items-start flex-wrap gap-5">
+
+            <!-- Socials Column -->
+            <div class="col-12 col-lg-5 text-center">
+                <h1 class="mb-5">Contact Me</h1>
+
+                <!-- Contact Details -->
+                <div class="mb-5">
+                    <h5 class="mb-3">Central Luzon, Philippines</h5>
+                    <h5 class="mb-3">+63 976 165 7484</h5>
+                    <h5 class="mb-0">briancarlobamba@gmail.com</h5>
+                </div>
+
+                <!-- Icons -->
+                <div id="contact-icons" class="row mt-4 gx-2 gy-2 justify-content-center">
+                    <div class="col-4 text-center">
+                        <a href="mailto:brianbamba02@gmail.com" target="_blank" aria-label="Gmail">
+                            <i class="fa-regular fa-envelope fa-7x"></i>
+                        </a>
+                    </div>
+                    <div class="col-4 text-center">
+                        <a href="https://github.com/briancarlobamba" target="_blank" aria-label="GitHub">
+                            <i class="fa-brands fa-github fa-7x"></i>
+                        </a>
+                    </div>
+                    <div class="col-4 text-center">
+                        <a href="https://www.linkedin.com/in/brianbamba/" target="_blank" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin fa-7x"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100">
-                    <a href="https://capstone-3-eight-fawn.vercel.app/" target="_blank"><img src="./images/capstone3.png" class="card-img-top" alt="Capstone 3"></a>
-                    <div class="card-body">
-                        <h5 class="card-title mt-3">Full-Stack E-Commerce Web Application</h5>
-                        <h6 class="card-subtitle text-muted mb-3">Capstone 3</h6>
-                        <!-- <p class="card-text mb-3 pt-3">Created a fully functional e-commerce web application where users can browse products, register, log in, add items to a cart, and place orders. The front-end was built using React.js, providing a smooth user interface, while the back-end API handles product listings, user authentication, and order management. Integrated both the front-end and back-end, hosted on AWS, to demonstrate my full-stack development skills, including API integration and managing data flow between the client and server.</p> -->
+
+            <!-- Contact Form Column -->
+            <div class="col-12 col-lg-5">
+                <h1 class="text-center mb-4">Message Me!</h1>
+                <form id="form-col" action="#modalDiv" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter Full Name Here" required>
                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100">
-                    <a href ="https://scratch.mit.edu/projects/1139681810/" target="_blank"><img src="./images/scratch.webp" class="card-img-top" alt="Scratch"></a>
-                    <div class="card-body">
-                        <h5 class="card-title mt-3">Scratch Game</h5>
-                        <h6 class="card-subtitle text-muted mb-3">Problem Set 0</h6>
-                        <!-- <p class="card-text mb-3 pt-3">Developed a simple yet interactive game using Scratch. The project demonstrates logic-based game development and event handling.</p> -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address Here" required>
                     </div>
+                    <div class="mb-3">
+                        <label for="contact" class="form-label">Contact Number</label>
+                        <input type="number" class="form-control" id="contact" name="contact" placeholder="Enter Contact Number Here" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Type Your Message Here!" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalDiv" id="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title" id="modalLabel"></h5>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Thank you for your submission! I'll get back to you shortly.</p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Tools -->
-<div id="tools" class="container p-5 text-dark">
-    <h1 class="text-center">Tools</h1>
-    <div id="icons" class="row text-center">
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/git.png" class="img-fluid" alt="Git">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/github.png" class="img-fluid" alt="GitHub">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/figma.png" class="img-fluid" alt="Figma">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/html.png" class="img-fluid" alt="HTML">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/css.png" class="img-fluid" alt="CSS">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/js.png" class="img-fluid" alt="JavaScript">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/mongodb.png" class="img-fluid" alt="MongoDB">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/node.png" class="img-fluid" alt="Node.js">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/express.png" class="img-fluid" alt="Express">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/react.png" class="img-fluid" alt="React">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/postman.png" class="img-fluid" alt="Postman">
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
-            <img src="./images/vscode.png" class="img-fluid" alt=x"VSCode">
-        </div>
-    </div>
-</div>
+    <!-- Footer -->
+    <footer id="footer" class="text-center bg-light p-3">
+        <p>&#169; 2024 Brian Bamba, all rights reserved.</p>
+    </footer>
 
-<!-- Contact -->
-<div id="contact" class="text-center p-5 text-light">
-    <h1 class="mb-5">Contact</h1>
-    <div id="contact-icons" class="d-flex justify-content-center align-items-center flex-wrap gap-3">
-        <a href="mailto:brianbamba02@gmail.com" target="_blank" aria-label="Gmail">
-            <i class="fa-regular fa-envelope"></i>
-        </a>
-        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
-            <i class="fa-brands fa-facebook"></i>
-        </a>
-        <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
-            <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.github.com/" target="_blank" aria-label="GitHub">
-            <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-    </div>
-</div>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/607662ec6a.js" crossorigin="anonymous"></script>
 
-
-<!-- Contact Form -->
-<div id="contact-section" class=" p-5 container-fluid text-light">
-    <div class="row mt-3 justify-content-center">
-        <div class="col-12 col-md-8 col-xl-4">
-            <form id="form-col" action="#modalDiv" method="post">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="contact" class="form-label">Contact Number</label>
-                    <input type="number" class="form-control" id="contact" name="contact" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-secondary mb-5 mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalDiv" id="submit">Submit</button>
-            </form>
-        </div>
-    </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header text-center">
-                <h5 class="modal-title" id="modalLabel"></h5>
-            </div>
-            <div class="modal-body text-center">
-                <p>Thank you for your submission! I'll get back to you shortly.</p>
-            </div>
-            <div class="modal-footer justify-content-center">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-<footer id="footer" class="text-center bg-light p-3">
-    <p>&#169; 2024 Brian Bamba, all rights reserved.</p>
-</footer>
-
-<!-- FontAwesome -->
-<script src="https://kit.fontawesome.com/607662ec6a.js" crossorigin="anonymous"></script>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
