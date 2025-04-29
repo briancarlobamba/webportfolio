@@ -1,6 +1,6 @@
 # Brian Bamba - Capstone 1: Static Personal Portfolio
 
-Welcome to my Capstone 1 Project! This is a responsive, mobile-first, single-page static portfolio website built with HTML5, CSS3, and Bootstrap 5.
+Welcome to my Capstone 1 Project; a static personal portfolio built with HTML, CSS, and Bootstrap.
 
 ## Live Demo
 
